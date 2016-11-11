@@ -1,6 +1,49 @@
 tag next
 --------------------------------
 
+tag k0.7.4
+- ffplay: fix sample buffer leak introduced in k0.7.1
+- doc: add takeoff checklist
+
+tag k0.7.3
+- ios: turn videotoolbox into singleton
+- ffmpeg: merge ipv6 issue in tcp.c
+
+tag k0.7.2
+-------------------------------
+- ios: fix a compile error
+
+tag k0.7.1
+-------------------------------
+- ffmpeg: upgrade to n3.2
+
+tag k0.6.3
+--------------------------------
+- ffmpeg: disable clock_gettime added in xcode8
+- android: make NDKr13 happy
+
+tag k0.6.2
+--------------------------------
+- ffmpeg: fix wild pointer when decoder was not found
+- player: fix bug introduced in k0.6.0
+
+tag k0.6.1
+--------------------------------
+- concat: fix crash introduced in k0.6.0
+- flvdec: fix seek problem introduced in k0.6.0
+- hls: fix regression with ranged media segments
+
+tag k0.6.0
+--------------------------------
+- openssl: upgrade to 1.0.2h
+- ffmpeg: upgrade to n3.1
+- MediaCodec: add options to enable resolution change.
+- VideoToolbox: add options to enable resolution change.
+
+tag k0.5.1
+--------------------------------
+- ffmpeg: fix crash introduced in k0.5.0
+
 tag k0.5.0
 --------------------------------
 - ffmpeg: upgrade to n3.0
